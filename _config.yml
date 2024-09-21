@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Yaolun Zhang's homepage"
-description              : "hi~ Welcome to my homepage "
+description              : "Hi, I'm Yaolun Zhang. I'am looking for a PhD position in LLM Agent, Code LLM and Multi-Agent System. Welcome to my homepage!"
 repository               : "Mercury7353/Mercury7353.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,8 +23,8 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "YaolunZhang"
   avatar           : "images/personalimg.jpg"
-  bio              : "Renmin University of China"
-  location         : "Beijing, China"
+  bio              : "Renmin University of China / UW-Madison"
+  location         : "Beijing, China / Madison, USA"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=F3b8LvoAAAAJ"
