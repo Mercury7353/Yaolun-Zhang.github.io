@@ -17,9 +17,9 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a undergrauate student at Renmin University of China. And currently, I'am also a visiting student at UW-Madison. I am fortunate to be advised by Prof. [Chaowei Xiao](https://xiaocw11.github.io/). Previously, I was supervised by Prof. [Keman Huang](https://mitsloan.mit.edu/staff/directory/keman-huang) in Remin Uinversity of China.
+I am an undergraduate student at Renmin University of China. Currently, I am also a visiting student at UW-Madison. I am fortunate to be advised by Prof. [Chaowei Xiao](https://xiaocw11.github.io/). Previously, I was supervised by Prof. [Keman Huang](https://mitsloan.mit.edu/staff/directory/keman-huang) at the Renmin University of China.
 
-My research interest includes Large Language Model(LLM) Agent, Multi-Agent System and Code/Tool LLM. I believe build tool-enabled agent system is the way to benefit human by using LLMs. 
+My research interest includes Large Language Model(LLM) Agents, Multi-Agent Systems, and Code/Tool LLM. I believe building a tool-enabled agent system is the way to benefit humans by using LLMs. 
 
 
 # 🔥 News
