@@ -33,7 +33,7 @@ My research interest includes Large Language Model(LLM) Agents, Multi-Agent Syst
 
 [Depending on yourself when you should: Mentoring LLM with RL agents to become the master in cybersecurity games](https://arxiv.org/pdf/2403.17674)
 
-Yikuan Yan, **Yaolun Zhang**, Keman Huang
+Yikuan Yan*, **Yaolun Zhang***, Keman Huang
 
 </div>
 </div>
@@ -44,6 +44,15 @@ Yikuan Yan, **Yaolun Zhang**, Keman Huang
 [PyBench: Evaluating LLM Agent on various real-world coding tasks](https://arxiv.org/abs/2407.16732)
 
 **Yaolun Zhang**, Yinxu Pan, Yudong Wang, Jie Cai
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><img src='images/paper3.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[MetaAgent: Automatically Building Multi-Agent System based on Finite State Machine]
+
+**Yaolun Zhang**, Xiaogeng Liu, Chaowei Xiao
 </div>
 </div>
 
