@@ -16,15 +16,19 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
+I am an incoming PhD student at Oregon State University, advised by Prof. [Huazheng Wang](https://huazhengwang.github.io/).
+I used to be an undergraduate student at Renmin University of China and also a visiting student at UW-Madison. I am fortunate to be advised by Prof. [Chaowei Xiao](https://xiaocw11.github.io/) at UW-Madison. Previously, I was supervised by Prof. [Keman Huang](https://mitsloan.mit.edu/staff/directory/keman-huang) at the Renmin University of China.
 
-I am an undergraduate student at Renmin University of China. Currently, I am also a visiting student at UW-Madison. I am fortunate to be advised by Prof. [Chaowei Xiao](https://xiaocw11.github.io/). Previously, I was supervised by Prof. [Keman Huang](https://mitsloan.mit.edu/staff/directory/keman-huang) at the Renmin University of China.
-
-My research interest includes Large Language Model(LLM) Agents, Multi-Agent Systems, and Code/Tool LLM. I believe building a tool-enabled agent system is the way to benefit humans by using LLMs. 
+My research interest includes Large Language Model(LLM) Agents, Multi-Agent Systems, and Code/Tool LLM and Reasoing Agents. I believe building a tool-enabled agent system is the way to benefit humans by using LLMs. 
 
 
 # 🔥 News
+- *2025.04*: &nbsp;🎉🎉 one paper accepted to ICML25!
+- *2025.04*: &nbsp;🎉🎉 Admitted to Oregon State University, as an AI PhD Student.
+- *2025.02*: &nbsp;🎉🎉 Start Internship at SenseTime Research. Happy to explore MLLM here.
 - *2024.09*: &nbsp;🎉🎉 I arrived at UW-Madison! It's a great place for study and research.
 - *2024.02*: &nbsp;🎉🎉 I started my internship in ModelBest! 
+
 
 # 📝 Publications 
 
@@ -50,7 +54,7 @@ Yikuan Yan*, **Yaolun Zhang***, Keman Huang
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><img src='images/paper3.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[MetaAgent: Automatically Building Multi-Agent System based on Finite State Machine]
+ICML25 [MetaAgent: Automatically Building Multi-Agent System based on Finite State Machine]
 
 **Yaolun Zhang**, Xiaogeng Liu, Chaowei Xiao
 </div>
@@ -58,9 +62,10 @@ Yikuan Yan*, **Yaolun Zhang***, Keman Huang
 
 
 # 📖 Educations
-- *2024.9 - 2024.12 (now)*, Visiting Student, University of Wisconsin-Madison. 
+- *2024.9 - 2024.12*, Visiting Student, University of Wisconsin-Madison. 
 - *2021.09 - 2025.06*, Undergraduate, Renmin University of China. 
 
 
 # 💻 Internships
 - *2024.2-2024.8*, [ModelBest](https://modelbest.cn/), China.
+- *2025.2-2025.7*, [SenseTime](https://sensetime.cn/), China.
