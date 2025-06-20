@@ -51,10 +51,10 @@ Yikuan Yan*, **Yaolun Zhang***, Keman Huang
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><img src='images/paper3.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML</div><img src='images/paper3.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-ICML25 [MetaAgent: Automatically Building Multi-Agent System based on Finite State Machine]
+[MetaAgent: Automatically Building Multi-Agent System based on Finite State Machine](https://openreview.net/forum?id=vOxaD3hhPt)
 
 **Yaolun Zhang**, Xiaogeng Liu, Chaowei Xiao
 </div>
