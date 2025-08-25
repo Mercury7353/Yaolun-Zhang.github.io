@@ -25,9 +25,7 @@ My research interest includes Large Language Model(LLM) Agents, Multi-Agent Syst
 # 🔥 News
 - *2025.04*: &nbsp;🎉🎉 One paper accepted to ICML25! See you in Vancourer!
 - *2025.04*: &nbsp;🎉🎉 Admitted to Oregon State University, as an AI PhD Student. Thank you Prof. Wang!
-- *2025.02*: &nbsp;🎉🎉 Started Internship at SenseTime Research. Happy to explore MLLM here.
-- *2024.09*: &nbsp;🎉🎉 Arrived at UW-Madison! It's a great place for study and research.
-- *2024.02*: &nbsp;🎉🎉 Started my internship at ModelBest! 
+- *2024.09*: &nbsp;🎉🎉 Arrived at UW-Madison! It's a great place for study and research. 
 
 
 # 📝 Publications 
@@ -67,7 +65,5 @@ Yikuan Yan*, **Yaolun Zhang***, Keman Huang
 - *2021.09 - 2025.06*, Undergraduate, Renmin University of China. 
 
 
-# 💻 Internships
-- *2025.2-2025.7*, [SenseTime](https://sensetime.cn/), China.
-- *2024.2-2024.8*, [ModelBest](https://modelbest.cn/), China.
+
 
