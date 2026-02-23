@@ -23,6 +23,7 @@ My research interest includes Large Language Model(LLM) Agents, Multi-Agent Syst
 
 
 # 🔥 News
+- *2026.02*: &nbsp;🎉🎉 Two paper accepted to CVPR26! 
 - *2025.04*: &nbsp;🎉🎉 One paper accepted to ICML25! See you in Vancourer!
 - *2025.04*: &nbsp;🎉🎉 Admitted to Oregon State University, as an AI PhD Student. Thank you Prof. Wang!
 - *2024.09*: &nbsp;🎉🎉 Arrived at UW-Madison! It's a great place for study and research. 
