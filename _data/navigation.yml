@@ -1,13 +1,13 @@
 # main links links
 main:
   - title: "News"
-    url: "/#news"
+    url: "#news"
 
   - title: "Publications"
-    url: "/#publications"
+    url: "#publications"
 
   - title: "Educations"
-    url: "/#educations"
+    url: "#educations"
 
   - title: "Internships"
-    url: "/#internships"
+    url: "#internships"

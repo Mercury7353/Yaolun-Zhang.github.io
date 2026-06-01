@@ -466,6 +466,314 @@ body {
     }
 }
 
+/* Fit the hero inside the Academic Pages content column. */
+.home-hero {
+    display: block;
+    min-height: 0;
+    padding: clamp(1rem, 2.4vw, 1.7rem);
+}
+
+.home-hero__copy {
+    max-width: 100%;
+}
+
+.home-hero h1 {
+    max-width: 100%;
+    font-size: clamp(2.8rem, 6.2vw, 5.1rem);
+    line-height: 0.92;
+    word-break: normal;
+}
+
+.hero-lede {
+    max-width: 42rem;
+    font-size: clamp(0.95rem, 1.2vw, 1.08rem);
+}
+
+.home-hero__signal {
+    display: grid;
+    grid-template-columns: minmax(160px, 1.1fr) minmax(0, 2.4fr);
+    gap: 0.55rem;
+    margin-top: 1.2rem;
+}
+
+.signal-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.signal-card,
+.signal-card--main {
+    min-height: 4.7rem;
+}
+
+.signal-card__number {
+    font-size: clamp(0.9rem, 1.25vw, 1.18rem);
+}
+
+.signal-card__label {
+    font-size: 0.72rem;
+}
+
+@include breakpoint(max-width $large) {
+    .home-hero__signal {
+        grid-template-columns: 1fr;
+    }
+
+    .signal-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@include breakpoint(max-width $medium) {
+    .home-hero h1 {
+        font-size: clamp(2.45rem, 14vw, 3.8rem);
+    }
+
+    .signal-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Compact pass: reduce visual mass and prevent hero clipping. */
+.masthead {
+    position: sticky;
+    top: 0;
+    z-index: 30;
+}
+
+.masthead__inner-wrap {
+    padding-top: 0.45em;
+    padding-bottom: 0.45em;
+}
+
+.masthead__menu-item {
+    font-size: 0.9rem;
+}
+
+#main {
+    margin-top: 0.8rem;
+}
+
+.home-hero {
+    grid-template-columns: minmax(0, 1fr) minmax(240px, 0.72fr);
+    min-height: 390px;
+    padding: clamp(1.2rem, 3vw, 2.25rem);
+    box-shadow: 7px 7px 0 var(--site-ink);
+    overflow: visible;
+}
+
+.home-hero:before {
+    inset: 0.7rem;
+}
+
+.home-hero h1 {
+    max-width: none;
+    font-size: clamp(3rem, 8vw, 6.4rem);
+    line-height: 0.88;
+    overflow-wrap: normal;
+}
+
+.hero-lede {
+    max-width: 38rem;
+    margin-top: 1rem;
+    font-size: clamp(1rem, 1.35vw, 1.22rem);
+    line-height: 1.28;
+}
+
+.eyebrow {
+    max-width: 100%;
+    margin-bottom: 0.85rem;
+    font-size: 0.7rem;
+    line-height: 1.25;
+}
+
+.hero-actions {
+    margin-top: 1.2rem;
+}
+
+.hero-button {
+    min-height: 2.35rem;
+    padding: 0.48rem 0.76rem;
+    box-shadow: 3px 3px 0 var(--site-line);
+    font-size: 0.88rem;
+}
+
+.home-hero__signal {
+    align-content: center;
+}
+
+.signal-grid {
+    gap: 0.5rem;
+}
+
+.signal-card {
+    min-height: 5.8rem;
+    padding: 0.7rem;
+}
+
+.signal-card--main {
+    min-height: 6.8rem;
+}
+
+.signal-card__number {
+    font-size: clamp(1rem, 1.65vw, 1.45rem);
+    line-height: 1.02;
+}
+
+.signal-card__label {
+    margin-top: 0.35rem;
+    font-size: 0.8rem;
+    line-height: 1.25;
+}
+
+.intro-panel {
+    margin: 1.5rem 0 2rem;
+    padding: 0.95rem 1.1rem;
+    border-left-width: 7px;
+    font-size: 0.98rem;
+}
+
+.page__content h1 {
+    grid-template-columns: 3rem 1fr;
+    margin: 2.25rem 0 0.9rem;
+    padding-bottom: 0.5rem;
+    font-size: clamp(1.65rem, 3.5vw, 3.35rem);
+}
+
+.timeline {
+    margin-bottom: 2rem;
+}
+
+.timeline-item {
+    min-height: 7.2rem;
+    padding: 0.72rem;
+}
+
+.timeline-date {
+    margin-bottom: 0.55rem;
+    font-size: 0.78rem;
+}
+
+.timeline-content {
+    font-size: 0.86rem;
+    line-height: 1.28;
+}
+
+.paper-box {
+    grid-template-columns: minmax(220px, 0.78fr) minmax(0, 1.22fr);
+    margin: 1rem 0;
+    border-width: 2px;
+    box-shadow: 5px 5px 0 rgba(16, 17, 20, 0.95);
+}
+
+.paper-box:hover {
+    transform: translate(-1px, -1px);
+    box-shadow: 7px 7px 0 rgba(0, 47, 167, 0.95);
+}
+
+.paper-box--lead {
+    grid-template-columns: minmax(260px, 0.95fr) minmax(0, 1.05fr);
+}
+
+.paper-box .paper-box-image {
+    border-right-width: 2px;
+}
+
+.paper-box .paper-box-image > div {
+    min-height: 180px;
+}
+
+.paper-box .paper-box-image img {
+    min-height: 180px;
+    padding: 0.75rem;
+}
+
+.paper-box--lead .paper-box-image img {
+    min-height: 245px;
+}
+
+.paper-box .paper-box-text {
+    padding: clamp(0.9rem, 2vw, 1.45rem);
+}
+
+.paper-kicker {
+    margin-bottom: 0.58rem;
+    padding: 0.18rem 0.38rem;
+    border-width: 1.5px;
+    font-size: 0.68rem;
+}
+
+.paper-box-text h2 {
+    font-size: clamp(1.12rem, 2vw, 1.9rem);
+    line-height: 1.04;
+}
+
+.paper-box-text p {
+    margin-top: 0.62rem;
+    font-size: 0.86rem;
+    line-height: 1.34;
+}
+
+.paper-links {
+    margin-top: 0.85rem;
+}
+
+.paper-links a {
+    padding: 0.32rem 0.54rem;
+    border-width: 1.5px;
+    box-shadow: 2px 2px 0 var(--site-line);
+    font-size: 0.68rem;
+}
+
+.badge {
+    margin-top: 0.65rem;
+    padding: 0.26rem 0.48rem;
+    border-width: 1.5px;
+    box-shadow: 3px 3px 0 var(--site-line);
+    font-size: 0.68rem;
+}
+
+.experience-item {
+    padding: 0.8rem;
+}
+
+.experience-item strong {
+    font-size: 1rem;
+}
+
+@include breakpoint(max-width $medium) {
+    .home-hero {
+        grid-template-columns: 1fr;
+        min-height: 0;
+        padding: 1rem;
+        box-shadow: 5px 5px 0 var(--site-ink);
+    }
+
+    .home-hero h1 {
+        font-size: clamp(2.7rem, 16vw, 4.2rem);
+        line-height: 0.9;
+    }
+
+    .signal-card,
+    .signal-card--main {
+        min-height: 5rem;
+    }
+
+    .page__content h1 {
+        grid-template-columns: 1.8rem 1fr;
+        font-size: 1.85rem;
+    }
+
+    .paper-box,
+    .paper-box--lead {
+        grid-template-columns: 1fr;
+    }
+
+    .paper-box .paper-box-image img,
+    .paper-box--lead .paper-box-image img {
+        min-height: 170px;
+    }
+}
+
 /* Swiss editorial refresh for the homepage */
 :root {
     --site-ink: #101114;
