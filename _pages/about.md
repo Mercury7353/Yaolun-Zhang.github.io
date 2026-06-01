@@ -18,9 +18,9 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 <section class="home-hero">
   <div class="home-hero__copy">
-    <p class="eyebrow">Agentic AI · Multi-Agent Systems · Vision-Language Agents</p>
+    <p class="eyebrow">Agentic AI / Reinforcement Learning / Multi-Agent Systems</p>
     <h1>Yaolun Zhang</h1>
-    <p class="hero-lede">I build agentic AI systems that learn, coordinate, and evolve across coding, video understanding, and multi-agent decision-making.</p>
+    <p class="hero-lede">I design self-improving agentic systems: models that build teams, execute tasks, watch videos actively, and learn from downstream outcomes.</p>
     <div class="hero-actions">
       <a href="#publications" class="hero-button hero-button--primary">Publications</a>
       <a href="mailto:zhangyaolun5@gmail.com" class="hero-button">Contact</a>
@@ -33,20 +33,20 @@ redirect_from:
     </div>
     <div class="signal-grid">
       <div class="signal-card">
-        <span class="signal-card__number">CVPR</span>
-        <span class="signal-card__label">Video Agents</span>
+        <span class="signal-card__number">MetaAgent-X</span>
+        <span class="signal-card__label">End-to-end RL for automatic MAS</span>
+      </div>
+      <div class="signal-card">
+        <span class="signal-card__number">EVA</span>
+        <span class="signal-card__label">Efficient RL for video agents</span>
       </div>
       <div class="signal-card">
         <span class="signal-card__number">ICML</span>
-        <span class="signal-card__label">Multi-Agent Systems</span>
+        <span class="signal-card__label">Automatic agent construction</span>
       </div>
       <div class="signal-card">
-        <span class="signal-card__number">LLM</span>
-        <span class="signal-card__label">Coding Agents</span>
-      </div>
-      <div class="signal-card">
-        <span class="signal-card__number">RL</span>
-        <span class="signal-card__label">Self-Evolving Agents</span>
+        <span class="signal-card__number">CVPR</span>
+        <span class="signal-card__label">Active video understanding</span>
       </div>
     </div>
   </div>
@@ -59,6 +59,10 @@ I am a first-year PhD student at Oregon State University, advised by Prof. <a hr
 <h1 id="news">News</h1>
 
 <div class="timeline">
+  <div class="timeline-item">
+    <span class="timeline-date">2026.05</span>
+    <div class="timeline-content">MetaAgent-X released: end-to-end reinforcement learning for self-designing and self-executing multi-agent systems.</div>
+  </div>
   <div class="timeline-item">
     <span class="timeline-date">2026.02</span>
     <div class="timeline-content">Two papers accepted to CVPR 2026.</div>
@@ -79,47 +83,91 @@ I am a first-year PhD student at Oregon State University, advised by Prof. <a hr
 
 <h1 id="publications">Publications</h1>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML</div><img src='images/paper3.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[MetaAgent: Automatically Building Multi-Agent System based on Finite State Machine](https://icml.cc/virtual/2025/poster/43677)
-
-**Yaolun Zhang**, Xiaogeng Liu, Chaowei Xiao
-
-<div class="paper-links"><a href="https://icml.cc/virtual/2025/poster/43677">Paper</a></div>
-</div>
-</div>
-
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR</div><img src='images/paper4.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[EVA: Efficient Reinforcement Learning for End-to-End Video Agent]
-
-**Yaolun Zhang**, Ruohui Wang, Jiahao Wang, Yepeng Tang, Haonan Duan, Xuanyu Zheng, Hao Lu, Hanming Deng, Lewei Lu
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><img src='images/paper2.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[PyBench: Evaluating LLM Agent on various real-world coding tasks](https://arxiv.org/abs/2407.16732)
-
-**Yaolun Zhang**, Yinxu Pan, Yudong Wang, Jie Cai
-
-<div class="paper-links"><a href="https://arxiv.org/abs/2407.16732">Paper</a></div>
-</div>
+<div class="paper-box paper-box--lead">
+  <div class="paper-box-image">
+    <div>
+      <div class="badge">arXiv 2026</div>
+      <img src="https://mercury7353.github.io/MetaAgent-X-Page/assets/pipeline.png" alt="MetaAgent-X online RL pipeline diagram">
+    </div>
+  </div>
+  <div class="paper-box-text">
+    <p class="paper-kicker">Latest Work · Multi-Agent RL</p>
+    <h2><a href="https://arxiv.org/abs/2605.14212">MetaAgent-X: Breaking the Ceiling of Automatic Multi-Agent Systems via End-to-End Reinforcement Learning</a></h2>
+    <p><strong>Yaolun Zhang</strong>, Yujie Zhao, Nan Wang, Yiran Wu, Jiayu Chang, Yizhao Chen, Qingyun Wu, Jishen Zhao, Huazheng Wang</p>
+    <p class="paper-summary">End-to-end RL framework that jointly optimizes automatic MAS design and execution, with hierarchical rollout and stagewise co-evolution.</p>
+    <div class="paper-links">
+      <a href="https://arxiv.org/abs/2605.14212">Paper</a>
+      <a href="https://mercury7353.github.io/MetaAgent-X-Page/">Project</a>
+      <a href="https://github.com/pettingllms-ai/PettingLLMs">Code</a>
+      <a href="https://huggingface.co/Mercury7353/MetaAgent-X">Model</a>
+    </div>
+  </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><img src='images/paper1.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Depending on yourself when you should: Mentoring LLM with RL agents to become the master in cybersecurity games](https://arxiv.org/pdf/2403.17674)
-
-Yikuan Yan*, **Yaolun Zhang***, Keman Huang
-
-<div class="paper-links"><a href="https://arxiv.org/pdf/2403.17674">Paper</a></div>
+<div class="paper-box paper-box--lead">
+  <div class="paper-box-image">
+    <div>
+      <div class="badge">CVPR 2026</div>
+      <img src="images/paper4.png" alt="EVA video agent overview">
+    </div>
+  </div>
+  <div class="paper-box-text">
+    <p class="paper-kicker">Video Agent · Efficient RL</p>
+    <h2><a href="https://arxiv.org/abs/2603.22918">EVA: Efficient Reinforcement Learning for End-to-End Video Agent</a></h2>
+    <p><strong>Yaolun Zhang</strong>, Ruohui Wang, Jiahao Wang, Yepeng Tang, Xuanyu Zheng, Haonan Duan, Hao Lu, Hanming Deng, Lewei Lu</p>
+    <p class="paper-summary">Planning-before-perception video agent trained with SFT, KTO, and GRPO for query-driven long-video understanding.</p>
+    <div class="paper-links">
+      <a href="https://arxiv.org/abs/2603.22918">Paper</a>
+      <a href="https://mercury7353.github.io/EVA-Page/">Project</a>
+      <a href="https://github.com/wangruohui/EfficientVideoAgent">Code</a>
+      <a href="https://huggingface.co/WRHC/EfficientVideoAgent/">Model</a>
+    </div>
+  </div>
 </div>
+
+<div class="paper-box">
+  <div class="paper-box-image">
+    <div>
+      <div class="badge">ICML 2025</div>
+      <img src="images/paper3.png" alt="MetaAgent finite-state-machine overview">
+    </div>
+  </div>
+  <div class="paper-box-text">
+    <p class="paper-kicker">Automatic MAS</p>
+    <h2><a href="https://icml.cc/virtual/2025/poster/43677">MetaAgent: Automatically Building Multi-Agent System based on Finite State Machine</a></h2>
+    <p><strong>Yaolun Zhang</strong>, Xiaogeng Liu, Chaowei Xiao</p>
+    <div class="paper-links"><a href="https://icml.cc/virtual/2025/poster/43677">Paper</a></div>
+  </div>
+</div>
+
+<div class="paper-box">
+  <div class="paper-box-image">
+    <div>
+      <div class="badge">arXiv</div>
+      <img src="images/paper2.png" alt="PyBench overview">
+    </div>
+  </div>
+  <div class="paper-box-text">
+    <p class="paper-kicker">Coding Agent Evaluation</p>
+    <h2><a href="https://arxiv.org/abs/2407.16732">PyBench: Evaluating LLM Agent on various real-world coding tasks</a></h2>
+    <p><strong>Yaolun Zhang</strong>, Yinxu Pan, Yudong Wang, Jie Cai</p>
+    <div class="paper-links"><a href="https://arxiv.org/abs/2407.16732">Paper</a></div>
+  </div>
+</div>
+
+<div class="paper-box">
+  <div class="paper-box-image">
+    <div>
+      <div class="badge">arXiv</div>
+      <img src="images/paper1.png" alt="Cybersecurity RL agents overview">
+    </div>
+  </div>
+  <div class="paper-box-text">
+    <p class="paper-kicker">RL Agents · Cybersecurity</p>
+    <h2><a href="https://arxiv.org/pdf/2403.17674">Depending on yourself when you should: Mentoring LLM with RL agents to become the master in cybersecurity games</a></h2>
+    <p>Yikuan Yan*, <strong>Yaolun Zhang*</strong>, Keman Huang</p>
+    <div class="paper-links"><a href="https://arxiv.org/pdf/2403.17674">Paper</a></div>
+  </div>
 </div>
 
 <h1 id="internships">Internships</h1>
@@ -142,4 +190,3 @@ Yikuan Yan*, **Yaolun Zhang***, Keman Huang
 - *2025.9 - ?*, PhD Student, Oregon State University. 
 - *2024.9 - 2024.12*, Visiting Student, University of Wisconsin-Madison. 
 - *2021.09 - 2025.06*, Undergraduate, Renmin University of China. 
-
