@@ -1,13 +1,7 @@
 # main links links
 main:
-  - title: "About Me"
-    url: "/#about-me"
-
   - title: "News"
     url: "/#news"
-
-  - title: "Featured Work"
-    url: "/#featured-work"
 
   - title: "Publications"
     url: "/#publications"

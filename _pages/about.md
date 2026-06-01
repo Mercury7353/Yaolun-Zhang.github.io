@@ -17,12 +17,12 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 <section class="home-hero">
-  <div class="home-hero__copy" markdown="1">
+  <div class="home-hero__copy">
     <p class="eyebrow">Agentic AI · Multi-Agent Systems · Vision-Language Agents</p>
     <h1>Yaolun Zhang</h1>
     <p class="hero-lede">I build agentic AI systems that learn, coordinate, and evolve across coding, video understanding, and multi-agent decision-making.</p>
     <div class="hero-actions">
-      <a href="#featured-work" class="hero-button hero-button--primary">Featured Work</a>
+      <a href="#publications" class="hero-button hero-button--primary">Publications</a>
       <a href="mailto:zhangyaolun5@gmail.com" class="hero-button">Contact</a>
     </div>
   </div>
@@ -52,42 +52,11 @@ redirect_from:
   </div>
 </section>
 
-<section class="intro-panel" markdown="1">
-I am a first-year PhD student at Oregon State University, advised by Prof. [Huazheng Wang](https://huazhengwang.github.io/). I was previously an undergraduate student at Renmin University of China and a visiting student at UW-Madison, where I was fortunate to work with Prof. [Chaowei Xiao](https://xiaocw11.github.io/). I was also supervised by Prof. [Keman Huang](https://mitsloan.mit.edu/staff/directory/keman-huang) at Renmin University of China.
+<section class="intro-panel">
+I am a first-year PhD student at Oregon State University, advised by Prof. <a href="https://huazhengwang.github.io/">Huazheng Wang</a>. I was previously an undergraduate student at Renmin University of China and a visiting student at UW-Madison, where I was fortunate to work with Prof. <a href="https://xiaocw11.github.io/">Chaowei Xiao</a>. I was also supervised by Prof. <a href="https://mitsloan.mit.edu/staff/directory/keman-huang">Keman Huang</a> at Renmin University of China.
 </section>
 
-<span class='anchor' id='featured-work'></span>
-# Featured Work
-
-<div class="featured-grid">
-  <a class="featured-card" href="https://icml.cc/virtual/2025/poster/43677">
-    <img src="images/paper3.png" alt="MetaAgent project preview">
-    <div>
-      <span class="featured-card__venue">ICML 2025</span>
-      <h2>MetaAgent</h2>
-      <p>Automatically builds multi-agent systems through finite-state machine structure.</p>
-    </div>
-  </a>
-  <div class="featured-card">
-    <img src="images/paper4.png" alt="EVA project preview">
-    <div>
-      <span class="featured-card__venue">CVPR 2026</span>
-      <h2>EVA</h2>
-      <p>Efficient reinforcement learning for end-to-end video agents.</p>
-    </div>
-  </div>
-  <a class="featured-card" href="https://arxiv.org/abs/2407.16732">
-    <img src="images/paper2.png" alt="PyBench project preview">
-    <div>
-      <span class="featured-card__venue">arXiv</span>
-      <h2>PyBench</h2>
-      <p>Evaluates LLM agents on realistic coding tasks and tool-use workflows.</p>
-    </div>
-  </a>
-</div>
-
-<span class='anchor' id='news'></span>
-# News
+<h1 id="news">News</h1>
 
 <div class="timeline">
   <div class="timeline-item">
@@ -108,8 +77,7 @@ I am a first-year PhD student at Oregon State University, advised by Prof. [Huaz
   </div>
 </div>
 
-<span class='anchor' id='publications'></span>
-# Publications 
+<h1 id="publications">Publications</h1>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML</div><img src='images/paper3.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -154,8 +122,7 @@ Yikuan Yan*, **Yaolun Zhang***, Keman Huang
 </div>
 </div>
 
-<span class='anchor' id='internships'></span>
-# Internships
+<h1 id="internships">Internships</h1>
 
 <div class="experience-list">
   <div class="experience-item">
@@ -170,11 +137,9 @@ Yikuan Yan*, **Yaolun Zhang***, Keman Huang
   </div>
 </div>
 
-<span class='anchor' id='educations'></span>
-# Educations
+<h1 id="educations">Educations</h1>
+
 - *2025.9 - ?*, PhD Student, Oregon State University. 
 - *2024.9 - 2024.12*, Visiting Student, University of Wisconsin-Madison. 
 - *2021.09 - 2025.06*, Undergraduate, Renmin University of China. 
-
-
 
