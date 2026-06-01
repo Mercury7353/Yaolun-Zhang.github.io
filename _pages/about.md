@@ -18,42 +18,33 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 <section class="home-hero">
   <div class="home-hero__copy">
-    <p class="eyebrow">Agentic AI / Reinforcement Learning / Multi-Agent Systems</p>
+    <p class="eyebrow">PhD Student · Oregon State University</p>
     <h1>Yaolun Zhang</h1>
-    <p class="hero-lede">I design self-improving agentic systems: models that build teams, execute tasks, watch videos actively, and learn from downstream outcomes.</p>
+    <p class="hero-lede">I work on agentic AI, reinforcement learning, multi-agent systems, and vision-language agents, with recent projects on automatic MAS construction and end-to-end video agents.</p>
+    <div class="hero-profile-grid">
+      <div class="hero-profile-item">
+        <span>Education</span>
+        <p>First-year PhD student at Oregon State University, advised by Prof. <a href="https://huazhengwang.github.io/">Huazheng Wang</a>. Previously studied at Renmin University of China and visited UW-Madison.</p>
+      </div>
+      <div class="hero-profile-item">
+        <span>Research</span>
+        <p>I am interested in self-improving agents, automatic multi-agent system design, RL-based agent training, coding agents, and video understanding.</p>
+      </div>
+      <div class="hero-profile-item">
+        <span>Experience</span>
+        <p>Research intern at SenseTime Research on video understanding, and ModelBest/OpenBMB on coding agents.</p>
+      </div>
+    </div>
     <div class="hero-actions">
       <a href="#publications" class="hero-button hero-button--primary">Publications</a>
+      <a href="#internships" class="hero-button">Experience</a>
       <a href="mailto:zhangyaolun5@gmail.com" class="hero-button">Contact</a>
-    </div>
-  </div>
-  <div class="home-hero__signal">
-    <div class="signal-card signal-card--main">
-      <span class="signal-card__number">PhD</span>
-      <span class="signal-card__label">Oregon State University</span>
-    </div>
-    <div class="signal-grid">
-      <div class="signal-card">
-        <span class="signal-card__number">MetaAgent-X</span>
-        <span class="signal-card__label">End-to-end RL for automatic MAS</span>
-      </div>
-      <div class="signal-card">
-        <span class="signal-card__number">EVA</span>
-        <span class="signal-card__label">Efficient RL for video agents</span>
-      </div>
-      <div class="signal-card">
-        <span class="signal-card__number">ICML</span>
-        <span class="signal-card__label">Automatic agent construction</span>
-      </div>
-      <div class="signal-card">
-        <span class="signal-card__number">CVPR</span>
-        <span class="signal-card__label">Active video understanding</span>
-      </div>
     </div>
   </div>
 </section>
 
 <section class="intro-panel">
-I am a first-year PhD student at Oregon State University, advised by Prof. <a href="https://huazhengwang.github.io/">Huazheng Wang</a>. I was previously an undergraduate student at Renmin University of China and a visiting student at UW-Madison, where I was fortunate to work with Prof. <a href="https://xiaocw11.github.io/">Chaowei Xiao</a>. I was also supervised by Prof. <a href="https://mitsloan.mit.edu/staff/directory/keman-huang">Keman Huang</a> at Renmin University of China.
+I was fortunate to work with Prof. <a href="https://xiaocw11.github.io/">Chaowei Xiao</a> at UW-Madison, and was previously supervised by Prof. <a href="https://mitsloan.mit.edu/staff/directory/keman-huang">Keman Huang</a> at Renmin University of China. My current work focuses on building agents that can plan, coordinate, learn from feedback, and improve their own system design.
 </section>
 
 <h1 id="news">News</h1>

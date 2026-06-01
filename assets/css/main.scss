@@ -1234,3 +1234,126 @@ body {
         min-height: 220px;
     }
 }
+
+/* Final homepage hero: text-first personal introduction. Keep this at EOF. */
+.home-hero {
+    display: block;
+    min-height: 0;
+    margin: 0 0 1.6rem;
+    padding: clamp(1.2rem, 2.5vw, 2rem);
+    overflow: visible;
+    border: 2px solid var(--site-line);
+    border-radius: 0;
+    background:
+        linear-gradient(rgba(0, 47, 167, 0.055) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0, 47, 167, 0.055) 1px, transparent 1px),
+        #fffef6;
+    background-size: 22px 22px;
+    box-shadow: 6px 6px 0 var(--site-ink);
+}
+
+.home-hero:before,
+.home-hero__signal,
+.signal-grid,
+.signal-card {
+    display: none;
+}
+
+.home-hero__copy {
+    max-width: 100%;
+}
+
+.home-hero h1 {
+    max-width: none;
+    margin: 0;
+    color: var(--site-ink);
+    font-family: $helvetica;
+    font-size: clamp(2.8rem, 6vw, 5.4rem);
+    font-weight: 900;
+    line-height: 0.92;
+    text-transform: uppercase;
+}
+
+.hero-lede {
+    max-width: 50rem;
+    margin: 0.9rem 0 0;
+    color: var(--site-ink);
+    font-size: clamp(1rem, 1.4vw, 1.2rem);
+    font-weight: 700;
+    line-height: 1.34;
+}
+
+.hero-profile-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0;
+    margin-top: 1.2rem;
+    border-top: 2px solid var(--site-line);
+    border-right: 2px solid var(--site-line);
+}
+
+.hero-profile-item {
+    min-height: 8rem;
+    padding: 0.85rem;
+    border-left: 2px solid var(--site-line);
+    border-bottom: 2px solid var(--site-line);
+    background: rgba(255, 255, 255, 0.82);
+}
+
+.hero-profile-item:nth-child(2) {
+    background: var(--site-lime);
+}
+
+.hero-profile-item span {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: var(--site-blue);
+    font-family: $monospace;
+    font-size: 0.72rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.hero-profile-item p {
+    margin: 0;
+    color: var(--site-ink);
+    font-size: 0.88rem;
+    font-weight: 700;
+    line-height: 1.35;
+}
+
+.hero-profile-item a {
+    color: var(--site-blue);
+}
+
+.hero-actions {
+    margin-top: 1rem;
+}
+
+.hero-button {
+    min-height: 2.35rem;
+    padding: 0.48rem 0.76rem;
+    font-size: 0.88rem;
+    box-shadow: 3px 3px 0 var(--site-line);
+}
+
+@include breakpoint(max-width $large) {
+    .hero-profile-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-profile-item {
+        min-height: 0;
+    }
+}
+
+@include breakpoint(max-width $medium) {
+    .home-hero {
+        padding: 1rem;
+        box-shadow: 4px 4px 0 var(--site-ink);
+    }
+
+    .home-hero h1 {
+        font-size: clamp(2.35rem, 14vw, 3.8rem);
+    }
+}
