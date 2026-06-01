@@ -4,19 +4,16 @@ main:
     url: "/#about-me"
 
   - title: "News"
-    url: "/#-news"
+    url: "/#news"
+
+  - title: "Featured Work"
+    url: "/#featured-work"
 
   - title: "Publications"
-    url: "/#-publications"
-
-  - title: "Honors and Awards"
-    url: "/#-honors-and-awards"
+    url: "/#publications"
 
   - title: "Educations"
-    url: "/#-educations"
-
-  - title: "Invited Talks"
-    url: "/#-invited-talks"
+    url: "/#educations"
 
   - title: "Internships"
-    url: "/#-internships"
+    url: "/#internships"

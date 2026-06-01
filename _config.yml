@@ -21,10 +21,10 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "YaolunZhang"
+  name             : "Yaolun Zhang"
   avatar           : "images/personalimg.jpg"
-  bio              : "Renmin University of China"
-  location         : "Beijing, China"
+  bio              : "PhD Student · Agentic AI"
+  location         : "Oregon State University"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=F3b8LvoAAAAJ"
